@@ -11,3 +11,5 @@ const everyResult= arr.every((element_Every)=>{
     return element_Every>2 // checks if every element on the array is greeter than 2
 })
 console.log(everyResult)
+
+// Both array some and array every accepts only a function
