@@ -25,6 +25,8 @@ const person={
     lastName: 'Snow',
 }
 const otherPerson= person
+// Person and other person point to the same location in the memory
+
 person.firstName='Johnny'
 console.log(person)
 console.log(otherPerson)
