@@ -4,7 +4,8 @@
 const employees={
     boss: 'Michael',
     secretery: 'Pam',
-    sales: 'Jim'
+    sales: 'Jim',
+    accountant: "Oscar"
 }
 
 const positions= Object.keys(employees)
@@ -40,3 +41,12 @@ sealedObject.password='newPassword'
 sealedObject.active=true
 sealedObject.username='Mehedi'
 console.log(sealedObject)
+
+
+let newObject ={
+    name: 'Mehedi',
+    age: '25'
+}
+const frozenObject= Object.freeze(newObject)
+
+console.log(frozenObject)
